@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageButton
+                android:id="@+id/btn1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:scaleType="fitXY"
+                android:src="@drawable/search"
+                android:text="Check"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/progress"
+                android:scaleType="fitXY"
+                android:text="Status"></ImageButton>
+        </LinearLayout>
+
+        <com.suggestionapp.grammarsuggestion.LatinKeyboardView
+            android:id="@+id/keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/material_light_key_background"
+            android:keyBackground="@drawable/key_background_light"
+            android:keyPreviewLayout="@null"
+            android:keyTextColor="@color/material_light_key_text_color"
+            android:keyTextSize="@dimen/key_size"
+            android:popupLayout="@layout/keyboard_popup_layout_light"
+            android:shadowRadius="0.0">
+
+        </com.suggestionapp.grammarsuggestion.LatinKeyboardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <include layout="@layout/activity_suggestion" />
+
+    </LinearLayout>
+
+</LinearLayout>

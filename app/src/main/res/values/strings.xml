@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+    <!-- Title for Latin keyboard  -->
+    <string name="ime_name">QqKeyboard</string>
+
+    <!-- Symbols that are commonly considered word separators in this language -->
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+    <string name="label_subtype_generic">%s</string>
+
+    <!-- Titles for ImePreference -->
+    <string name="settings_name">QqKeyboard sazlawları</string>
+    <string name="language_selection_title">Input languages</string>
+    <string name="select_language">Klaviatura tilin saylań</string>
+    <string name="key_settings">Klavisha sazlawları</string>
+    <string name="sound_on_keypress">Klavisha dawısı</string>
+    <string name="vibrate_on_keypress">Klavisha vibratsiyası</string>
+    <string name="volume_on_keypress">Klavisha dawıs dárejesi</string>
+    <string name="vibration_strenth_on_keypress">Klavisha vibratsiya kúshi</string>
+    <string name="keyboard_view_settings">Klaviatura sırtqı kórinisi</string>
+    <string name="theme_title">Klaviatura shablonı</string>
+    <string name="theme_dialog_title">Klaviatura shablonın (reńin) saylań</string>
+    <string name="pref_keypress_sound_key">pref_keypress_sound_key</string>
+    <string name="pref_keypress_vibration_key">pref_keypress_vibration_key</string>
+    <string name="pref_keypress_sound_volume_key">pref_keypress_sound_volume_key</string>
+    <string name="pref_keypress_sound_volume_level">pref_keypress_sound_volume_seekbar</string>
+    <string name="pref_keypress_vibration_strength_key">pref_keypress_vibration_strength_key</string>
+    <string name="pref_keypress_vibration_strength_level">pref_keypress_vibration_strength_level</string>
+    <string name="pref_keypress_theme">pref_keypress_theme</string>
+    <string name="pref_keypress_theme_light">theme_light</string>
+    <string name="pref_keypress_theme_dark">theme_dark</string>
+    <string name="pref_keypress_layout_latin">layout_latin</string>
+    <string name="pref_keypress_layout_cyrillic">layout_cyrillic</string>
+    <string name="pref_keypress_default_layout">pref_keypress_default_layout</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Biykar et</string>
+    <string name="text_with_percent">%d%%</string>
+    <string name="text_with_ms">%d ms</string>
+    <string name="vibration_level_default">50 ms</string>
+    <string name="sound_volume_default">50%</string>
+    <string name="theme_dark">Material Dark</string>
+    <string name="theme_light">Material Light</string>
+    <string name="layout_latin">Latın</string>
+    <string name="layout_cyrillic">Кирилл</string>
+    <string name="default_layout_title">Negizgi saylanǵan álipbe</string>
+    <string name="keyboard_other_settings">Basqa sazlawlar</string>
+    <string name="about_keyboard">QqKeyboard haqqında</string>
+    <string name="version">version %s</string>
+    <string name="about_description">
+        QqKeyboard - Android platformasında qaraqalpaq tilinde tekst kiritiw ushın
+        arnalǵan ashıq derekli (open-source) baǵdarlama (https://github.com/shagalalab/qqkeyboard-android).
+        Baǵdarlamanı jaratıwda tómendegi resurlardan paydalanıldı: \n\n
+         - klavisha ikonaları ushın: Google Material Icons (https://material.io/icons/) \n\n
+         - baǵdarlama ikonası ushın: Nova Icons Full Pack (http://www.webalys.com/nova/free-icons.html) \n\n
+
+        Baǵdarlamanı Shaǵala Lab toparı islep shıqqan, olar menen info@shagalalab.com email adresine
+        xat jazıw, yamasa www.shagalalab.com saytındaǵı \'Baylanıs\' betinde jaylasqan formanı
+        toltırıw arqalı baylanısıwıńız múmkin. \n\n
+
+        Shaǵala Lab toparınıń Android platforması ushın jaratılǵan basqa da baǵdarlamaları bar, olar
+        menen tanısıwdı qáleseńiz tómendegi bannerdi basıwıńızdı sorap qalamız:
+
+    </string>
+    <string name="pref_keypress_first_row_appearance">pref_keypress_first_row_appearance</string>
+    <string name="first_row_appearance">Birinshi qatar kórinisi</string>
+    <string name="row_additional_letters">Qosımsha háripler (á, ú, ı, &#8230;)</string>
+    <string name="row_numbers">Sanlar (1, 2, 3, &#8230;)</string>
+    <string name="pref_keypress_row_numbers">row_numbers</string>
+    <string name="pref_keypress_row_additional_letters">row_additional_letters</string>
+
+    <string-array name="theme_entries">
+        <item>@string/theme_light</item>
+        <item>@string/theme_dark</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>@string/pref_keypress_theme_light</item>
+        <item>@string/pref_keypress_theme_dark</item>
+    </string-array>
+
+    <string-array name="default_layout_entries">
+        <item>@string/layout_latin</item>
+        <item>@string/layout_cyrillic</item>
+    </string-array>
+
+    <string-array name="default_layout_values">
+        <item>@string/pref_keypress_layout_latin</item>
+        <item>@string/pref_keypress_layout_cyrillic</item>
+    </string-array>
+
+    <string-array name="first_row_entries">
+        <item>@string/row_numbers</item>
+        <item>@string/row_additional_letters</item>
+    </string-array>
+
+    <string-array name="first_row_values">
+        <item>@string/pref_keypress_row_numbers</item>
+        <item>@string/pref_keypress_row_additional_letters</item>
+    </string-array>
+</resources>
